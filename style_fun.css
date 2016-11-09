@@ -1,0 +1,120 @@
+body {
+  background-color: #9b59b6;
+  color: #9b59b6;
+  font-family: 'Coiny', cursive;
+}
+
+h1, h2, h3 {
+  font-family: 'Coiny', cursive;
+  color: #16a085;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 21px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 19px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.container {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.card {
+  margin: 20px;
+  padding: 25px;
+
+  border-radius: 4px;
+  box-shadow: 0 0 4px #999999;
+
+  background-color: #f1c40f;
+}
+
+#img-logo {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px #666666;
+}
+
+a {
+  color: #d35400;
+  text-decoration: none
+}
+
+a:hover{
+  color: #ecf0f1;
+  background-color: #d35400;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+td {
+  padding: 10px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 35px;
+  padding-left: 0px;
+}
+
+.list-inline > li > a > i{
+  font-size: 45px;
+}
+
+.link-blue {
+  color: #2c3e50;
+}
+
+.link-blue:hover {
+  color: #95a5a6;
+  background-color: inherit;
+}
+
+#btn-serious {
+  position: fixed;
+  padding: 15px;
+  background-color: #222222;
+  color: #dddddd;
+  border-radius: 5px;
+  font-family: Arial;
+}
+
+#btn-serious:hover {
+  background-color: #888888;
+  box-shadow: 0px 0px 0px #aaaaaa;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
