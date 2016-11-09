@@ -6,84 +6,91 @@
 
     <link href="https://fonts.googleapis.com/css?family=Coiny|Prociono|Roboto:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/semantic/semantic.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
   </head>
   <body>
 
-    <a href="/profile/fun.html" id="btn-fun" class="text-center">
-      Boring?
-      <br>Make it fun!
-    </a>
-
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/profile.jpg" alt="Guillaume Cabanel" id="img-logo">
-        <h1>Guillaume Cabanel</h1>
-        <h2>Ruby apprentice</h2>
-
-        <p class="text-justify">I was in sustainable development for construction as an engineer for 6 years. I would like to change my of life by moving to Nantes, <strong>learning to code</strong> and find a job here.</p>
+    <div class="ui container">
+    <br>
+    <div class="ui grid">
+      <div class="six wide column">
+        <div class="ui card">
+          <div class="image">
+            <img src="images/profile.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Guillaume Cabanel</a>
+            <div class="meta">
+              <span class="date">Ruby apprentice, <a href="https://www.lewagon.com" target="_blank">
+              Le Wagon - Alumni
+            </a></span>
+            </div>
+            <div class="description">
+              I was in sustainable development for construction as an engineer for 6 years. I would like to change my of life by moving to Nantes, <strong>learning to code</strong> and find a job here.
+            </div>
+          </div>
+          <div class="extra content">
+            <div class="ui big horizontal divided list">
+              <div class="item">
+                <a href="https://github.com/guillaumecabanel" target="_blank"><i class="github icon"></i></a>
+              </div>
+              <div class="item">
+                  <a href="https://www.linkedin.com/in/guillaumecabanel" target="_blank"><i class="linkedin icon"></i></a>
+              </div>
+              <div class="item">
+                <a href="https://twitter.com/guicabanel" target="_blank"><i class="twitter icon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="https://github.com/guillaumecabanel" target="_blank" class="link-blue"><i class="fa fa-github" aria-hidden="true"></i><br>Github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/guillaumecabanel" target="_blank" class="link-blue"><i class="fa fa-linkedin" aria-hidden="true"></i><br>Linkedin</a>
-          </li>
-          <li>
-            <a href="https://twitter.com/guicabanel" target="_blank" class="link-blue"><i class="fa fa-twitter" aria-hidden="true"></i><br>Twitter</a>
-          </li>
-        </ul>
+    <div class="ten wide column">
+      <div class="ui vertical steps">
+        <div class="step">
+          <i class="graduation cap icon"></i>
+          <div class="content">
+            <div class="title">ESME Sudria</div>
+            <div class="description">Master degree for Electrical Engineering
+            <br>and Energy Systems</div>
+          </div>
+        </div>
+        <div class="step">
+          <i class="building icon"></i>
+          <div class="content">
+            <div class="title">Artelia</div>
+            <div class="description">
+              Sustainable Developpement Engineer.
+              <br>Followed-up numerous real estate projects.
+              <br>Management of environmental certifications.
+            </div>
+          </div>
+        </div>
+        <div class="active step">
+          <i class="code icon"></i>
+          <div class="content">
+            <div class="title">Le Wagon</div>
+            <div class="description">
+              Europe's best coding school for entrepreneurs.
+              <br>9 intensive weeks- 360 hours of code
+              <br>Learning all the web stack, from the database
+              <br>to the browser.
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div class="card">
-        <h2 class="text-center">Experience</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="images/logo_lewagon_200px.jpg" alt="Logo Le Wagon"></td>
-              <td>
-                <h3>Le Wagon</h3>
-                <p class="text-justify">
-                  Le Wagon is Europe's best coding school for entrepreneurs. 9 intensive weeks - 360 hours of code. Learning all the web stack, from the database to the browser.
-                </p>
-              </td>
-            </tr>
-            <tr>
-               <td><img src="images/logo_artelia_200px.jpg" alt="Logo Artelia"></td>
-              <td>
-                <h3>Artelia</h3>
-                <p class="text-justify">
-                Sustainable Developpement Engineer.
-                Followed-up numerous real estate projects in program, design and realization. Management of environmental certifications HQE™ and BREEAM©.
-                </p>
-              </td>
-            </tr>
-            <tr>
-               <td><img src="images/logo_esme_200px.jpg" alt="Logo ESME"></td>
-              <td>
-                <h3>ESME Sudria</h3>
-                <p class="text-justify">
-                  Master degree for Electrical Engineering and Energy Systems
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="card">
-        <h2 class="text-center">About this page</h2>
+    </div>
+  </div>
+      <div class="ui segment">
+        <h2 class="ui header">About this page</h2>
         <p class="text-justify">
           This page has been coded during the <a href="http://lewagon.org/program">FullStack program @LeWagon</a>. This Bootcamp was one of the best experience of my entire life.
         </p>
       </div>
     </div> <!-- container -->
+
   </body>
 </html>
